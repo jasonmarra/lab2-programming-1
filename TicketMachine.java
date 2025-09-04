@@ -12,21 +12,24 @@
 public class TicketMachine
 {
     // The price of a ticket from this machine.
+    //the price is (5);
     private int price;
     // The amount of money entered by a customer so far.
+    // The amount of money entered is (5);
     private int balance;
-    // The total amount of money collected by this machine.
+    // The total amount of money collected by this machine is (5);
     private int total;
 
     /**
      * Create a machine that issues tickets of the given price.
      */
-    public TicketMachine(int cost)
+    public  TicketMachine(int cost)
     {
         price = cost;
         balance = 0;
         total = 0;
     }
+    
 
     /**
      * @Return The price of a ticket.
@@ -34,6 +37,7 @@ public class TicketMachine
     public int getPrice()
     {
         return price;
+        
     }
 
     /**
