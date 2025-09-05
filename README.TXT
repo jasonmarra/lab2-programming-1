@@ -45,4 +45,6 @@ make it so the  price is a set amount or input the price manually.
 54.=addition,- subtraction,* multiplation,/ division, % modulus
 55. saving=price* discount;
 56. mean = total/count
-59.
+59.this version of refundBalance() does not give the same outcome because its from the naive machine. balance =0 which means you will never get a refund.
+60.i learned, the return statement immediately exits the method that it is in. so the balance will give you an error message("unreachable statement")
+61. Yes this new version can be complied.
