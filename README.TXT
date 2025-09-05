@@ -37,3 +37,12 @@ Alive=status;
 45.you have two options.
 make it so the  price is a set amount or input the price manually.
 46. the empty method is a mutator.
+47. if i enter the value of insertMoney() as 0 it will tell you to put a value higher than 0
+48.if i put the greater or equal to operator, then you can put 0 without getting error.
+50.
+51. Yes it is possible, and the code will still compile.
+53. No it is not possible for the balance to be set to a negative number after printing a ticket.
+54.=addition,- subtraction,* multiplation,/ division, % modulus
+55. saving=price* discount;
+56. mean = total/count
+59.
